@@ -16,6 +16,6 @@ class Session extends XFCP_Session
 
 	public function isRobot()
 	{
-		return $this->robot == '';
+		return !empty($this->data['robot']);
 	}
 }
