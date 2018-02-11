@@ -1,6 +1,6 @@
 {
     "from_class": "XF\\Repository\\Attachment",
     "to_class": "SV\\LimitBots\\XF\\Repository\\Attachment",
-    "execute_order": 10,
+    "execute_order": 5844,
     "active": true
 }
