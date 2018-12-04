@@ -12,7 +12,7 @@ class Forum extends XFCP_Forum
 
         /** @var \SV\LimitBots\XF\Session\Session $session */
         $session = \XF::session();
-        if ($session->isRobot())
+        if ($session->isRobot(false))
         {
             if (isset($filters['order']))
             {
