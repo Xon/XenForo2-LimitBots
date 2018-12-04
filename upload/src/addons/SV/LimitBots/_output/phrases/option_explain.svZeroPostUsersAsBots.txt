@@ -1,0 +1,1 @@
+For counting views, skip users who do not have a post count or a like count
