@@ -41,7 +41,17 @@ class Session extends XFCP_Session
             }
             else if ($options->svZeroPostUsersAsBots)
             {
-                if (!$visitor->message_count || !$visitor->like_count)
+                if (!$visitor->message_count)
+                {
+                    return true;
+                }
+                /** @noinspection PhpUndefinedFieldInspection */
+                if (\XF::$versionId < 2010000 && !$visitor->like_count)
+                {
+                    return true;
+                }
+                /** @noinspection PhpUndefinedFieldInspection */
+                if (\XF::$versionId >= 2010000 && $visitor->reaction_score <= 0)
                 {
                     return true;
                 }

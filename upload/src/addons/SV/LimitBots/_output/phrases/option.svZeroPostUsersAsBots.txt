@@ -1,1 +1,1 @@
-Treat zero post users as bots
+On counting views, skip zero post users
