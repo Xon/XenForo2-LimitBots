@@ -11,6 +11,7 @@ namespace SV\LimitBots\XF\Pub\Controller
 namespace SV\LimitBots\XF\Repository
 {
 	class XFCP_Attachment extends \XF\Repository\Attachment {}
+	class XFCP_SessionActivity extends \XF\Repository\SessionActivity {}
 	class XFCP_Thread extends \XF\Repository\Thread {}
 }
 

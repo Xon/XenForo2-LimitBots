@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Repository\\SessionActivity",
+    "to_class": "SV\\LimitBots\\XF\\Repository\\SessionActivity",
+    "execute_order": 5844,
+    "active": true
+}

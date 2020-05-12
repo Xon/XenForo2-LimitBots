@@ -2,8 +2,6 @@
 
 namespace SV\LimitBots\XF\Pub\Controller;
 
-use XF\Mvc\ParameterBag;
-
 class Forum extends XFCP_Forum
 {
     protected function getForumFilterInput(\XF\Entity\Forum $forum)
