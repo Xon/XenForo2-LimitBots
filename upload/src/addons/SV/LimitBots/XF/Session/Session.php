@@ -1,4 +1,7 @@
 <?php
+/**
+ * @noinspection PhpMissingReturnTypeInspection
+ */
 
 namespace SV\LimitBots\XF\Session;
 
@@ -14,11 +17,7 @@ class Session extends XFCP_Session
 		return false;
 	}
 
-    /**
-     * @param bool $checkVisitor
-     * @return bool
-     */
-	public function isRobot($checkVisitor = true)
+	public function isRobot(bool $checkVisitor = true): bool
 	{
 	    if (!empty($this->data['robot']))
         {
@@ -35,11 +34,11 @@ class Session extends XFCP_Session
 
             $options = \XF::options();
 
-            if ($options->svCountGuestViews && !$visitor->user_id)
+            if (($options->svCountGuestViews ?? true) && !$visitor->user_id)
             {
                 return false;
             }
-            else if ($options->svZeroPostUsersAsBots)
+            else if ($options->svZeroPostUsersAsBots ?? true)
             {
                 if (!$visitor->message_count)
                 {

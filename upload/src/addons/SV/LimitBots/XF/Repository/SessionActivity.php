@@ -15,6 +15,7 @@ class SessionActivity extends XFCP_SessionActivity
             $threshold = \XF::options()->svSampleNonUserSessionActivity ?? null;
             if ($threshold !== null)
             {
+                $threshold = (int)$threshold;
                 if ($threshold <= 0)
                 {
                     return;
