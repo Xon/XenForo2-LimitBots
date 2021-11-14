@@ -20,7 +20,7 @@ class SessionActivity extends XFCP_SessionActivity
                 {
                     return;
                 }
-                if ($threshold >= 100 && \mt_rand(0, 100) < $threshold)
+                if ($threshold < 100 && \mt_rand(0, 100) < $threshold)
                 {
                     return;
                 }
