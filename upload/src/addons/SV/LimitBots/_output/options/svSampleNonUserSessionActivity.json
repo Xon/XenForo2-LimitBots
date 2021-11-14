@@ -1,10 +1,11 @@
 {
     "edit_format": "spinbox",
     "edit_format_params": "units=%\nmin=0\nmax=100\nstep=1",
-    "data_type": "numeric",
+    "data_type": "unsigned_integer",
     "sub_options": [],
     "validation_class": "",
     "validation_method": "",
+    "advanced": false,
     "default_value": "100",
     "relations": {
         "svLimitBots": 30
