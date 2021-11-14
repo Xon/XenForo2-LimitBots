@@ -12,15 +12,14 @@ class SessionActivity extends XFCP_SessionActivity
         if ($robotKey || !$userId)
         {
             // only sample non-member/robot session activity
-            $options = \XF::options();
-            if ($options->offsetExists('svSampleNonUserSessionActivity'))
+            $threshold = \XF::options()->svSampleNonUserSessionActivity ?? null;
+            if ($threshold !== null)
             {
-                $threshold = $options->svSampleNonUserSessionActivity;
-                if (!$threshold)
+                if ($threshold <= 0)
                 {
                     return;
                 }
-                if ($threshold < 1 && \mt_rand(0, 100) < $threshold)
+                if ($threshold >= 100 && \mt_rand(0, 100) < $threshold)
                 {
                     return;
                 }
