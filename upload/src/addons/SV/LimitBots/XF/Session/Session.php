@@ -5,6 +5,9 @@
 
 namespace SV\LimitBots\XF\Session;
 
+/**
+ * @extends \XF\Session\Session
+ */
 class Session extends XFCP_Session
 {
 	public function save()

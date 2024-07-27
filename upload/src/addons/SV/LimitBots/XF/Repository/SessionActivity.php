@@ -3,7 +3,7 @@
 namespace SV\LimitBots\XF\Repository;
 
 /**
- * Extends \XF\Repository\SessionActivity
+ * @Extends \XF\Repository\SessionActivity
  */
 class SessionActivity extends XFCP_SessionActivity
 {

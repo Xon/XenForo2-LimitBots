@@ -5,6 +5,9 @@
 
 namespace SV\LimitBots\XF\Pub\Controller;
 
+/**
+ * @extends \XF\Pub\Controller\Forum
+ */
 class Forum extends XFCP_Forum
 {
     protected function getForumFilterInput(\XF\Entity\Forum $forum)
