@@ -2,9 +2,9 @@
     "legacy_addon_id": "SV_BotThreadView",
     "title": "Limit Bots",
     "description": "",
-    "version_id": 2040000,
+    "version_id": 1722052409,
     "version_string": "2.4.0",
-    "dev" : "Xon",
+    "dev": "Xon",
     "dev_url": "https://atelieraphelion.com/",
     "faq_url": "",
     "support_url": "https://xenforo.com/community/resources/limit-bots.5844/",
@@ -12,9 +12,15 @@
         "License": "https://atelieraphelion.com/products/limit-bots.240/copyright",
         "Add-on site": "https://atelieraphelion.com/products/limit-bots.240/"
     },
-    "require" : {
-        "XF": [2020070, "XenForo 2.2.0+"],
-        "php": ["7.2.0", "PHP 7.2.0+"]
+    "require": {
+        "XF": [
+            2020070,
+            "XenForo 2.2.0+"
+        ],
+        "php": [
+            "7.2.0",
+            "PHP 7.2.0+"
+        ]
     },
     "icon": ""
 }
