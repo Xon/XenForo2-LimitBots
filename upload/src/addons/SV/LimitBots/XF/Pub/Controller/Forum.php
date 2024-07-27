@@ -5,6 +5,8 @@
 
 namespace SV\LimitBots\XF\Pub\Controller;
 
+use SV\LimitBots\XF\Session\Session as ExtendedSession;
+
 /**
  * @extends \XF\Pub\Controller\Forum
  */
@@ -14,7 +16,7 @@ class Forum extends XFCP_Forum
     {
         $filters = parent::getForumFilterInput($forum);
 
-        /** @var \SV\LimitBots\XF\Session\Session $session */
+        /** @var ExtendedSession $session */
         $session = \XF::session();
         if ($session->isRobot(false))
         {
