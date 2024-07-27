@@ -8,7 +8,10 @@
     "dev_url": "https://atelieraphelion.com/",
     "faq_url": "",
     "support_url": "https://xenforo.com/community/resources/limit-bots.5844/",
-    "extra_urls": [],
+    "extra_urls": {
+        "License": "https://atelieraphelion.com/products/limit-bots.240/copyright",
+        "Add-on site": "https://atelieraphelion.com/products/limit-bots.240/"
+    },
     "require" : {
         "XF": [2010070, "XenForo 2.1.0+"],
         "php": ["7.0.0", "PHP 7.0.0+"]
