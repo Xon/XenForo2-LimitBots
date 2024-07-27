@@ -27,6 +27,12 @@ class Session extends XFCP_Session
             return true;
         }
 
+        $robotName = \XF::app()->request()->getRobotName();
+        if ($robotName !== '')
+        {
+            return true;
+        }
+
 	    if ($checkVisitor)
         {
             $visitor = \XF::visitor();
