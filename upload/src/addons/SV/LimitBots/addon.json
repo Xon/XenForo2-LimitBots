@@ -3,8 +3,8 @@
     "title": "Limit Bots",
     "description": "",
     "version_id": 1722052409,
-    "version_string": "2.4.0",
-    "dev": "Xon",
+    "version_string": "2.5.0",
+    "dev": "Atelier Aphelion",
     "dev_url": "https://atelieraphelion.com/",
     "faq_url": "",
     "support_url": "https://xenforo.com/community/resources/limit-bots.5844/",
@@ -20,6 +20,13 @@
         "php": [
             "7.2.0",
             "PHP 7.2.0+"
+        ]
+    },
+    "require-soft": {
+        "SV/SearchImprovements": [
+            "2.19.0",
+            "Search Improvements v2.19.0",
+            false
         ]
     },
     "icon": ""
