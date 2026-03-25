@@ -1,8 +1,17 @@
 <?php
 
-/** @noinspection PhpIllegalPsrClassPathInspection */
 // ################## THIS IS A GENERATED FILE ##################
 // DO NOT EDIT DIRECTLY. EDIT THE CLASS EXTENSIONS IN THE CONTROL PANEL.
+
+/**
+ * @noinspection PhpMultipleClassesDeclarationsInOneFile
+ * @noinspection PhpIllegalPsrClassPathInspection
+ */
+
+namespace SV\LimitBots\XF\Entity
+{
+	class XFCP_User extends \XF\Entity\User {}
+}
 
 namespace SV\LimitBots\XF\Pub\Controller
 {
