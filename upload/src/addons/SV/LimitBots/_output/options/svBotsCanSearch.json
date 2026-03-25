@@ -8,6 +8,8 @@
     "advanced": false,
     "default_value": "1",
     "relations": {
-        "svLimitBots": 100
+        "searchOptions": 123,
+        "svLimitBots": 123,
+        "svSearchImprovements": 123
     }
 }

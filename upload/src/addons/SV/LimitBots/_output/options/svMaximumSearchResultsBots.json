@@ -1,0 +1,15 @@
+{
+    "edit_format": "spinbox",
+    "edit_format_params": "",
+    "data_type": "positive_integer",
+    "sub_options": [],
+    "validation_class": "",
+    "validation_method": "",
+    "advanced": false,
+    "default_value": "50",
+    "relations": {
+        "searchOptions": 124,
+        "svLimitBots": 124,
+        "svSearchImprovements": 124
+    }
+}

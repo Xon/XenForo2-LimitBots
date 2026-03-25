@@ -1,0 +1,2 @@
+This number reflects the maximum number of search or find new results that will be found for guest users, before permissions are taken into account. Setting this too high may cause performance problems.<br/>
+This feature requires <a href="https://atelieraphelion.com/products/search-improvements.120/">Search Improvements v2.19.0+</a>

@@ -8,6 +8,11 @@
  * @noinspection PhpIllegalPsrClassPathInspection
  */
 
+namespace SV\LimitBots\SV\SearchImprovements\Repository
+{
+	class XFCP_Search extends \SV\SearchImprovements\Repository\Search {}
+}
+
 namespace SV\LimitBots\XF\Entity
 {
 	class XFCP_User extends \XF\Entity\User {}
