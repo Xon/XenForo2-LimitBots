@@ -16,7 +16,7 @@ class User extends XFCP_User
         {
             /** @var ExtendedSession $session */
             $session = \XF::session();
-            if ($session->isRobot())
+            if ($session->isRobot(false))
             {
                 return false;
             }
